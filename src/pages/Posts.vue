@@ -57,7 +57,7 @@ const deletePost = async (id: number): Promise<void> => {
 
 <template>
 	<div>
-		<PageTitle title="Posts List" />
+		<PageTitle title="Список постов" />
 
 		<CreatePost class="mb-8" @create="createPost" />
 
